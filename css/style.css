@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #f7f7f7;
+}
+
+/* HEADER ----------------------------------------------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.menu a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu .promo {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* BANNER ----------------------------------------------------- */
+.banner {
+    background: url('https://via.placeholder.com/1600x500') center/cover no-repeat;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 6px;
+    font-size: 40px;
+}
+
+/* PRODUTOS --------------------------------------------------- */
+.produtos {
+    padding: 40px;
+}
+
+.grid {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.nome {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.preco {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.preco span {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 8px;
+}
+
+button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
